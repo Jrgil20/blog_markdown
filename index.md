@@ -7,5 +7,5 @@ title: JRG blog
 Este es el índice de mi blog. Aquí encontrarás todas mis publicaciones.
 
 {% for post in site.posts %}
-  * [{{ post.title }}]({{ post.url }})
+  * [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
